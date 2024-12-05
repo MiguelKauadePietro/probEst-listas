@@ -71,7 +71,7 @@ def exp2():
         res = simulacao2()
         resultados.append(res)
 
-    df2 = pd.DataFrame(resultados, columns="Experimento2")
+    df2 = pd.DataFrame(resultados, columns=['Experimento2'])
 
     media = df2.mean()
     moda = df2.mode()
